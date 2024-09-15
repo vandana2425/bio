@@ -1,0 +1,62 @@
+/* Background image with slight blur */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('download.jpeg') no-repeat center center/cover;
+    filter: blur(6px); /* Slight blur to make text stand out more */
+    z-index: -1;
+}
+
+/* Keep the container color as is */
+.overlay {
+    background-color: rgba(255, 255, 255, 0.1); /* Keep existing transparency */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+}
+
+/* Darker Text styling for better readability */
+h1, h2, h5 {
+    color: #2F3C7E; /* Dark blue for headings */
+    font-weight: 600; /* Increase weight for better visibility */
+}
+
+p {
+    color: #333333; /* Dark grey for paragraph text */
+    font-size: 1.1rem; /* Increase font size for readability */
+    line-height: 1.6; /* Increase line height for better spacing */
+}
+
+/* Skills section cards with better contrast and readability */
+.skill-card {
+    background-color: rgba(255, 255, 255, 0.95); /* Light background */
+    color: #2F3C7E; /* Darker text for readability */
+    border: 1px solid #2F3C7E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+    padding: 20px; /* Increase padding inside cards */
+    font-weight: bold; /* Increase font weight */
+}
+
+/* Button styling */
+.btn-outline-light {
+    border-color: #2F3C7E; /* Match button border with the text color */
+    color: #2F3C7E;
+    font-weight: bold; /* Make buttons stand out more */
+}
+
+.btn-outline-light:hover {
+    background-color: #2F3C7E;
+    color: #ffffff;
+}
+
+/* Footer padding and styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
